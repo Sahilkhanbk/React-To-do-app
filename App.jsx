@@ -3,7 +3,6 @@ import './App.css'
 import Navbar from './components/Navbar.jsx'
 import { v4 as uuidv4 } from 'uuid';
 
-
 function App() {
   const [todo, settodo] = useState('');
   const [todos, settodos] = useState([]);
